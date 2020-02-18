@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Papier, kamień, nożyce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <h2>Gra w papier, kamień i nożyce!</h2>
+    <div class="select"><h1>Wybierz swoją broń</h1>
+    <div class="hands"><img data-option="kamien" title="kamień" class="pick" src="/pics/kamien.jpg"><img data-option="nozyczki" title="nożyczki" class="pick" src="/pics/nozyczki.jpg"><img title="papier" data-option="papier" class="pick" src="/pics/papier.jpg"></div>
+    </div>
+    <button class="play">FIGHT!</button>
+    <div class="scores">
+    <div>
+        <div><h1>Wynik rozgrywki</h1>
+       <div><span>Twój wybór: </span> <span class="player score">Przykład</span></div>
+       <div><span>Wybór AI: </span> <span class="ai score"></span></div>
+       <div><span>Zwycięzca: </span> <span class="winner score"></span></div>
+       </div>
+    </div>
+
+    <div class="allTimeScores">
+       <div> <h1>Wszystkie mecze</h1>
+       <div> <span>Ilość rozegranych gier:</span> <span class="games">0</span></div>
+       <div> <span>Ilość zwycięstw:</span> <span class="wins score">0</span></div>
+       <div> <span>Ilość przegranych:</span> <span class="loses score">0</span></div>
+       <div><span>Ilość remisów: </span> <span class="rows score">0</span></div>
+    </div></div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
